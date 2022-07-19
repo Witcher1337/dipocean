@@ -1,0 +1,17 @@
+.box {
+  border: 1px dashed black;
+  display: flex;
+  padding: 8px;
+  border-radius: 8px;
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+  border-radius: inherit;
+  flex: 1;
+}
+
+.details {
+  flex: 0;
+}

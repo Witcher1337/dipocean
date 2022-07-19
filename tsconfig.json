@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "baseUrl": "src",
+    "paths": {
+      "@ui": [
+        "shared/ui"
+      ],
+      "@lib/*": [
+        "shared/lib/*"
+      ],
+      "configs/*": [
+        "shared/configs/*"
+      ],
+      "@features/*": [
+        "features/*"
+      ],
+      "@entities/*": [
+        "entities/*"
+      ],
+      "@pages": [
+        "pages"
+      ],
+      "@api/*": [
+        "shared/api/*"
+      ],
+      "@ssr": [
+        "shared/lib/effector-ssr"
+      ],
+    },
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "lib": [
+      "es6",
+      "es2015",
+      "es2017",
+      "dom",
+      "ES2019",
+      "DOM.Iterable"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "pretty": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es2016",
+    "types": [
+      "react",
+      "jest",
+      "node",
+      "webpack-env",
+    ],
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.d.ts",
+    "src"
+  ],
+  "exclude": [
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "razzle.config.js",
+    "node_modules"
+  ]
+}
